@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(18, 22, 33);
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: rgb(27, 33, 48);
+    min-height: 70px;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a, header a{
+    text-decoration: none;
+    color:rgb(163, 171, 190);
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: rgb(250, 199, 106);
+}
+
+/* Sección Hero */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    min-height: 800px;
+    background-color: blueviolet;
+}
+
+.hero-contenido{
+    display: flex;
+    background-color: brown;
+    max-width: 900px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-contenido img{
+    max-width: 350px;
+    padding-bottom: 40px;
+}
+
+.hero-contenido h1{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+.hero-contenido button{
+    height: 45px;
+    width: 150px;
+}
+
+.destacado{
+    color: rgb(250, 199, 106);
+}
+
+/* Sección noticias */
+
+.noticias{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 800px;
+    background-color: aqua;    
+}
+
+.noticias h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.noticias-contenido{
+    display: flex;
+    background-color: rgb(206, 211, 225);
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.noticias-contenido > div {
+    flex: 1;
+}
+
+.noticias-contenido div{
+    background-color: blueviolet;
+}
+
+.noticias-contenido img{
+    width: 100%;
+}
+
+.noticias-contenido h1{
+    font-size: 27px;
+}
+
+.noticias-contenido p{
+    font-size: 15px;
+    color:rgb(190, 198, 218)
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    .noticias-contenido {
+        flex-direction: column;
+    }
+}
+
