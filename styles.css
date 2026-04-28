@@ -119,6 +119,30 @@ nav a:hover{
     color:rgb(190, 198, 218)
 }
 
+/* Sección highlight */
+
+.rasgos{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    text-align: center;
+}
+
+.rasgos .destacado{
+    font-size: 75px;
+}
+
+.rasgos p{
+    max-width: 30%;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-bottom: 90px;
+}
+
+.rasgos h2{
+    padding-top: 40px;
+}
+
 @media (max-width:700px){
     header{
         flex-direction: column;
