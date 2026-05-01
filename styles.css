@@ -41,16 +41,32 @@ nav a:hover{
     justify-content: center;
     min-height: 800px;
     background-color: blueviolet;
+
+    position: relative;
+    background-image: url(imagenes/hero_fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 15, 30, 0.5);
 }
 
 .hero-contenido{
     display: flex;
-    background-color: brown;
+    /* background-color: brown; */
     max-width: 900px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    position: relative;
+    z-index: 1;
 }
 
 .hero-contenido img{
