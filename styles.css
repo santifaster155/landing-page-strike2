@@ -83,6 +83,18 @@ nav a:hover{
 .hero-contenido button{
     height: 45px;
     width: 150px;
+
+    /* Quitar estilo del botón por defecto */
+    border: none;
+    background: none;
+
+    background-image: url("imagenes/boton_ui.png");
+    background-size: cover;
+    background-position: center;
+
+    cursor: pointer;
+
+    color: rgb(30, 36, 53);
 }
 
 .destacado{
