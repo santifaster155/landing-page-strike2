@@ -70,17 +70,17 @@ nav a:hover{
 }
 
 .hero-contenido img{
-    max-width: 350px;
+    max-width: 275px;
     padding-bottom: 40px;
 }
 
 .hero-contenido h1{
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     padding-bottom: 25px;
 }
 
-.hero-contenido button{
+.hero-contenido #juega-gratis{
     height: 45px;
     width: 150px;
 
@@ -95,6 +95,13 @@ nav a:hover{
     cursor: pointer;
 
     color: rgb(30, 36, 53);
+}
+
+.hero-contenido .botones-plataformas{
+    display: flex;
+    max-width: 1000px;
+    margin-top: 50px;
+    gap: 10px;
 }
 
 .destacado{
