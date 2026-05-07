@@ -6,10 +6,15 @@ body{
 
 header{
     display: flex;
-    background-color: rgb(27, 33, 48);
-    min-height: 70px;
+    background-color: rgba(27, 33, 48, 0.9);
+    min-height: 55px;
     padding: 10px;
     align-items: center;
+
+    /* Sticky nav bar */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo{
@@ -19,15 +24,16 @@ header{
 }
 
 .logo img{
-    height: 50px;
+    height: 40px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 nav a, header a{
     text-decoration: none;
     color:rgb(163, 171, 190);
-    font-weight: 600;
     padding-right: 10px;
+    font-size: 15px;
 }
 
 nav a:hover{
@@ -114,10 +120,16 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     text-align: center;
+
+    position: relative;
+    background-image: url(imagenes/rasgos_fondo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .rasgos .destacado{
-    font-size: 75px;
+    font-size: 70px;
 }
 
 .rasgos p{
@@ -125,12 +137,14 @@ nav a:hover{
     font-size: 20px;
     margin: 0 auto;
     padding-bottom: 90px;
+    padding-top: 15px;
     color: rgb(222, 220, 220);
 }
 
 .rasgos h2{
     padding-top: 40px;
     color: white;
+    font-size: 20px;
 }
 
 /* Sección Noticias */
