@@ -86,7 +86,7 @@ nav a:hover{
     padding-bottom: 25px;
 }
 
-.hero-contenido #juega-gratis{
+.juega-gratis-boton{
     height: 45px;
     width: 150px;
 
@@ -103,7 +103,7 @@ nav a:hover{
     color: rgb(30, 36, 53);
 }
 
-.hero-contenido .botones-plataformas{
+.botones-plataformas{
     display: flex;
     max-width: 1000px;
     margin-top: 50px;
@@ -155,7 +155,7 @@ nav a:hover{
     justify-content: flex-start;
     align-items: center;
     min-height: 800px;
-    background-color: aqua;    
+    background-color: rgb(18, 22, 33);    
 }
 
 .noticias-contenido{
@@ -175,12 +175,12 @@ nav a:hover{
     flex: 1;
 }
 
-.noticias-contenido div{
+/* .noticias-contenido div{
     background-color: blueviolet;
-}
+} */
 
 .noticias-contenido img{
-    width: 100%;
+    width: 90%;
 }
 
 .noticias-contenido h3{
@@ -191,6 +191,10 @@ nav a:hover{
 .noticias-contenido p{
     font-size: 15px;
     color:rgb(190, 198, 218)
+}
+
+.noticias .juega-gratis-boton{
+    margin-top: 50px;
 }
 
 /* Sección Plataformas */
