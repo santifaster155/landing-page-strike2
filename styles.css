@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(18, 22, 33);
     font-family: "Open Sans", sans-serif;
@@ -292,6 +296,10 @@ footer a{
     text-decoration: none;
     color: white;
     font-size: 12px;
+}
+
+footer a:hover{
+    color: rgb(250, 199, 106);
 }
 
 footer img{
