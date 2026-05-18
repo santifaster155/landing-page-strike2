@@ -3,6 +3,9 @@
 Landing page ficticia inspirada en la web del videojuego SMITE 2.
 El objetivo del proyecto fue seguir practicando y consolidando conocimientos de HTML, CSS y diseño responsive.
 
+## Ver Proyecto
+https://santifaster155.github.io/landing-page-strike2/
+
 ## Tecnologías utilizadas
 - HTML5
 - CSS3
