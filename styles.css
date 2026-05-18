@@ -105,6 +105,14 @@ nav a:hover{
     cursor: pointer;
 
     color: rgb(30, 36, 53);
+    
+    transition: 0.3s ease;
+}
+
+.juega-gratis-boton:hover{
+    transform: translateY(-3px);
+    filter: brightness(1.1);
+    filter: drop-shadow(0 0 8px rgba(242,199,106,0.5));
 }
 
 .botones-plataformas{
@@ -112,6 +120,14 @@ nav a:hover{
     max-width: 1000px;
     margin-top: 50px;
     gap: 10px;
+}
+
+.botones-plataformas a{
+    transition: 0.3s ease;
+}
+
+.botones-plataformas a:hover{
+    transform: translateY(-3px);
 }
 
 .destacado{
@@ -313,8 +329,42 @@ footer img{
     nav{
         padding: 10px 0px;
     }
-    .noticias-contenido {
+    .noticias-contenido{
         flex-direction: column;
+    }
+
+    .rasgos p{
+        max-width: 80%;
+    }
+
+    .rasgos .destacado{
+        font-size: 60px;
+    }
+
+    .noticias h2{
+        text-align: center;
+    }   
+
+    .plataformas{
+        justify-content: center;
+        padding-right: 0px;
+    }
+
+    .plataformas-contenido{
+        align-content: center;
+    }
+    
+    .plataformas-contenido h2{
+        text-align: center;
+    }
+
+    .plataformas-contenido .destacado{
+        font-size: 35px;
+    }  
+    
+    .plataformas-contenido p{
+        font-size: 20px;
+        text-align: center;
     }
 }
 
